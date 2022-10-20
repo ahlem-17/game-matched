@@ -40,7 +40,7 @@ export const Card = ({ id, contents }) => {
 
   // 3rd if statement
   // implement number of flipped cards check
-  if (visibleIDs.length == 2) {
+  if (visibleIDs.length === 2) {
     click = () => {};
   }
 
